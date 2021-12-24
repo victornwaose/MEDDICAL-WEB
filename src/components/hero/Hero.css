@@ -1,0 +1,48 @@
+.hero {
+    background-image: url("../../images/doc2.jpg");
+    background-size: 100%;
+    background-repeat: none;
+    background-position: center;
+    padding-bottom: 154px;
+    padding-top: 90px;
+    
+}
+
+.hero-container{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero-text {
+    width: 42%;
+    padding-top: 90px;
+}
+
+.hero-text h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--color-lightblue)
+}
+
+.hero-text h1 {
+    text-transform: capitalize;
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.button_services{
+    background-color: var(--color-lightblue);
+    color: var(--color-darkblue);
+    padding: 15px;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    
+}

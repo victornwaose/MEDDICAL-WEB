@@ -1,13 +1,18 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Neucha&family=Roboto:wght@100;300;400;700&display=swap');
+
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --font-family: "Lato", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+  sans-serif;
+
+  --color-darkblue: #1F2B6C;
+  --color-lightblue: #A7CFE9;
+  --color-white: #fff;
+  --color-blue: #0000ff
 }
