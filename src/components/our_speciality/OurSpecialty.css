@@ -1,0 +1,43 @@
+.ourSpecialty {
+    width: 80%;
+    margin: 50px auto;
+
+}
+.ourSpecialty_heading  {
+    text-align: center;
+
+}
+.ourSpecialty_heading  h4 {
+    font-size: 1.3rem;
+    color: var(--color-lightblue);
+}
+.ourSpecialty_heading  h2 {
+    font-size: 2rem;
+    color: var(--color-darkblue);
+}
+.ourSpecialty_container {
+    display: grid;
+    grid-template-columns: repeat(4,  1fr);
+    margin-top: 20px;
+
+}
+.specialty {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.3px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.specialty p {
+    color: var(--color-lightblue)
+}
+
+.specialty:hover {
+    background-color: var(--color-darkblue);
+    color: var(--color-lightblue)
+}
+

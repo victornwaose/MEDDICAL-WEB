@@ -1,0 +1,176 @@
+.ourServices {
+    width: 80%;
+    margin: 20px auto;
+}
+.ourServices_heading h4 {
+    color: var(--color-lightblue);
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: center;
+}
+.ourServices_heading h2 {
+    color: var(--color-darkblue);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.ourServices_container {
+    display: flex;
+    margin-top: 40px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.left_container{
+    border: 1px solid gray;
+    width: 140px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.left_container:hover {
+    background-color:  var(--color-darkblue);
+    color: var(--color-white);
+    
+}
+
+.left_container .icon {
+    color: var(--color-lightblue);
+}
+.icon:hover{
+    color: var(--color-lightblue);
+}
+.left button{
+    padding: 20px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: transparent;
+    background-color:  var(--color-darkblue);
+    color: var(--color-lightblue);
+    cursor: pointer;
+}
+
+.middle h4 {
+    color: var(--color-darkblue);
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.middle_grid {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gridOne{
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+}
+
+.gridOne span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-lightblue);
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+.gridTwo{
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+}
+.gridTwo span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-lightblue);
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+.gridThree {
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+}
+
+.gridThree span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-lightblue);
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+.gridFour{
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+}
+
+.gridFour span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-lightblue);
+    margin-top: 5px;
+    margin-right: 3px;
+}
+.gridFive {
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.gridFive span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-lightblue);
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+.middle p {
+    font-size: 1.2rem; 
+    margin-bottom: 10px;
+}
+
+.right{
+    margin-right: 10px;
+}
+
+.right_one{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.borders{
+    display: flex;
+}
+
+.borderOne{
+    width: 60px;
+    background-color: var(--color-lightblue);
+    height: 8px;
+}
+.borderTwo{
+    width: 150px;
+    background-color: var(--color-darkblue);
+    height: 8px;
+}
+.borderThree{
+    width: 60px;
+    background-color: var(--color-blue);
+    height: 8px;
+}

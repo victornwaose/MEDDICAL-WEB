@@ -6,7 +6,7 @@
 .hero_cards {
     display: flex;
     position: absolute;
-    bottom: -75px;
+    bottom: 40px;
     
 }
 .hero_card {
@@ -16,6 +16,8 @@
     margin-left: 10px;
     color: var(--color-white);
     text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .hero_card_container {
     display: flex;
@@ -29,14 +31,18 @@
     background-color: var(--color-lightblue);
     width: 304px;
     height: 110px;
-    margin-left: 10px;
+    margin-left: 30px;
     color: var(--color-darkblue);
+    border-radius: 5px;
+    cursor: pointer;
     
 }
 .hero_card_2 {
     background-color: var(--color-blue);
     width: 304px;
     height: 110px;
-    margin-left: 10px;
+    margin-left: 30px;
     color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
 }

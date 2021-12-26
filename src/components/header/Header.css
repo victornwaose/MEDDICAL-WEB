@@ -1,9 +1,16 @@
 .header {
+    background-color: var(--color-white);  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 22;
+}
+.header_container{   
     width: 80%;
     margin: 0 auto;
-    position: relative;
-}
-.header_container{
+  
+    height: 55px;
     display: flex;
     justify-content: space-between;
     align-items: center;

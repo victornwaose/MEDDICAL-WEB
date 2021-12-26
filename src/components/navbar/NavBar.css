@@ -1,9 +1,16 @@
 .navBar {
-    background-color: var(--color-darkblue);
-   
+    width: 100%;
+    background-color: var(--color-darkblue)!important; 
+    position: fixed;
+    top: 55px;
+    left: 0;
+    right:0;
+    z-index: 2
 }
+
 .navBar_container {
     width: 80%;
+    height: 55px;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
