@@ -6,6 +6,7 @@ import {
     Detail,
     OurServices,
     OurSpecialty,
+    Appoint,
 } from "../../components";
 
 const HomePage = () => {
@@ -16,6 +17,7 @@ const HomePage = () => {
             <Detail />
             <OurServices />
             <OurSpecialty />
+            <Appoint />
         </div>
     );
 };

@@ -5,3 +5,4 @@ export { default as HeroCard } from "./hero_cards/HeroCard";
 export { default as Detail } from "./detail/Detail";
 export { default as OurServices } from "./our_services/OurServices";
 export { default as OurSpecialty } from "./our_speciality/OurSpecialty";
+export { default as Appoint } from "./appoint/Appoint";
