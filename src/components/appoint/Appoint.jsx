@@ -15,7 +15,23 @@ const Appoint = () => {
                         quality healthCare by booking an appointment{" "}
                     </p>
                 </div>
-                <div className="appoint_info"></div>
+                <div className="appoint_info">
+                    <div>
+                        <input type="text" placeholder="Name" />
+                        <select>
+                            Gender
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                        <input type="text" placeholder="Email" />
+                        <input type="number" placeholder="Phone" />
+                        <textarea
+                            row="31"
+                            column="10"
+                            placeholder="Enter Message"
+                        />
+                    </div>
+                </div>
             </div>
         </div>
     );

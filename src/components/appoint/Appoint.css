@@ -1,0 +1,32 @@
+.appoint {
+    background-image:  url("../../images/doc-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px;
+
+}
+.appoint_container {
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.appoint_text {
+    width: 40%;
+
+}
+.appoint_text h2 {
+    font-size: 2rem;
+    color: var(--color-lightblue);
+    font-weight: 700;
+}
+.appoint_text p {
+    font-size: 1.3rem;
+    color: var(--color-darkblue);
+    font-size: 100;
+}
+.appoint_info {
+    background: var(--color-darkblue);
+    width: 40%;
+}
