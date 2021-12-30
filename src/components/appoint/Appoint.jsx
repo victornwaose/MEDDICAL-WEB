@@ -17,8 +17,12 @@ const Appoint = () => {
                 </div>
                 <div className="appoint_info">
                     <div className="appoint_info_detail">
-                        <input type="text" placeholder="Name" />
-                        <select>
+                        <input
+                            type="text"
+                            placeholder="Name"
+                            className="name"
+                        />
+                        <select className="gender">
                             Gender
                             <option>Male</option>
                             <option>Female</option>
@@ -26,7 +30,8 @@ const Appoint = () => {
                         <input type="text" placeholder="Email" />
                         <input type="number" placeholder="Phone" />
                     </div>{" "}
-                    <textarea rows="21" cols="46" placeholder="Enter Message" />
+                    <textarea rows="21" cols="60" placeholder="Enter Message" />
+                    <button className="submit">Submit</button>
                 </div>
             </div>
         </div>

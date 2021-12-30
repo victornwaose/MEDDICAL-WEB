@@ -29,32 +29,51 @@
 }
 .appoint_info {
     background: var(--color-darkblue);
-    width: 40%;
+    width: 50%;
+    border-radius: 10px;
+   
 }
 .appoint_info_detail {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    border-radius: 15px;
 }
 .appoint_info_detail input {
-    padding: 10px;
+    padding: 15px;
     background: var(--color-darkblue);
-    border: none;
+    border:  1px solid #fff;
+}
+.name {
+    border-top-left-radius: 6px;
+    color: var(--color-white);
 }
 .appoint_info_detail select {
-    padding: 10px;
+    padding: 15px;
     background: var(--color-darkblue);
-    color:  var(--color-gray);
-    border: none;
+    color:  var(--color-white);
+    border:  1px solid #fff;
+}
+.gender  {
+    border-top-right-radius: 6px;
 }
 .appoint_info_detail option  {
     padding: 15px;
     background: var(--color-darkblue);
-    color:  var(--color-gray);
-    border: none;
+    color:  var(--color-white);
+    border:  1px solid #fff;
 }
 textarea  {
-    padding: 10px;
-    color:  var(--color-gray);
+    padding: 15px;
+    color:  var(--color-white);
     background: var(--color-darkblue);
-    border: none;
+}
+.submit {
+    background: var(--color-lightblue);
+    width: 100%;
+    height: 40px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border:  none;
+    cursor: pointer;
+    color: var(--color--white);
 }
