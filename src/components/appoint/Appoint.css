@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 80px;
+    padding: 60px;
 
 }
 .appoint_container {
@@ -14,6 +14,7 @@
 }
 .appoint_text {
     width: 40%;
+    margin-top: 80px;
 
 }
 .appoint_text h2 {
@@ -29,4 +30,31 @@
 .appoint_info {
     background: var(--color-darkblue);
     width: 40%;
+}
+.appoint_info_detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.appoint_info_detail input {
+    padding: 10px;
+    background: var(--color-darkblue);
+    border: none;
+}
+.appoint_info_detail select {
+    padding: 10px;
+    background: var(--color-darkblue);
+    color:  var(--color-gray);
+    border: none;
+}
+.appoint_info_detail option  {
+    padding: 15px;
+    background: var(--color-darkblue);
+    color:  var(--color-gray);
+    border: none;
+}
+textarea  {
+    padding: 10px;
+    color:  var(--color-gray);
+    background: var(--color-darkblue);
+    border: none;
 }

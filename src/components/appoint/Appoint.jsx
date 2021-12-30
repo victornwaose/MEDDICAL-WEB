@@ -11,12 +11,12 @@ const Appoint = () => {
                     <p>
                         Booking an appointment with us as being made easy with
                         quality health assurance we provide for you, you can
-                        take th4e huge step to providing you and your family
+                        take these huge step to providing you and your family
                         quality healthCare by booking an appointment{" "}
                     </p>
                 </div>
                 <div className="appoint_info">
-                    <div>
+                    <div className="appoint_info_detail">
                         <input type="text" placeholder="Name" />
                         <select>
                             Gender
@@ -25,12 +25,8 @@ const Appoint = () => {
                         </select>
                         <input type="text" placeholder="Email" />
                         <input type="number" placeholder="Phone" />
-                        <textarea
-                            row="31"
-                            column="10"
-                            placeholder="Enter Message"
-                        />
-                    </div>
+                    </div>{" "}
+                    <textarea rows="21" cols="46" placeholder="Enter Message" />
                 </div>
             </div>
         </div>
