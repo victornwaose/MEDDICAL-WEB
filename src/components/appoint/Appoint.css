@@ -19,7 +19,7 @@
 }
 .appoint_text h2 {
     font-size: 2rem;
-    color: var(--color-lightblue);
+    color: var(--color-blue);
     font-weight: 700;
 }
 .appoint_text p {
@@ -76,4 +76,5 @@ textarea  {
     border:  none;
     cursor: pointer;
     color: var(--color--white);
+    font-size: 1rem;
 }
