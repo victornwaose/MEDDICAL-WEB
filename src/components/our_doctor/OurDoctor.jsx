@@ -15,8 +15,8 @@ const OurDoctor = () => {
                 <div className="carousel-profiles">
                     <img src={carousel?.images} alt="img" />
                     <div className="carousel_info">
-                        <h2>{carousel?.doctorName}</h2>
-                        <h4>{carousel?.skills}</h4>
+                        <h4>{carousel?.doctorName}</h4>
+                        <h2>{carousel?.skills}</h2>
                         <div className="carousel_social">
                             <FaLinkedin />
                             <FaFacebook />

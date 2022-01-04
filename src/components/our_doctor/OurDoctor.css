@@ -36,8 +36,12 @@ img {
     padding: 30px;
 }
 
-.carousel_info {
+.carousel_info  {
     text-align: center;
+    color: var(--color-darkblue);
+}
+.carousel_info h {
+    font-weight: 700;
 }
 
 .alice-carousel__dots-item{
@@ -57,4 +61,6 @@ img {
     background: var(--color-darkblue);
     text-align: center;
     padding: 10px;
+    color: var(--color-lightblue);
+    cursor: pointer;
 }
