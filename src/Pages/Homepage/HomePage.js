@@ -8,6 +8,7 @@ import {
     OurSpecialty,
     Appoint,
     OurDoctor,
+    OurContact,
 } from "../../components";
 
 const HomePage = () => {
@@ -20,6 +21,7 @@ const HomePage = () => {
             <OurSpecialty />
             <Appoint />
             <OurDoctor />
+            <OurContact />
         </div>
     );
 };

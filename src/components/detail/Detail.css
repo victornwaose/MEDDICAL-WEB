@@ -23,7 +23,7 @@
 .detail_container p {
     text-align: center;
     font-size: 1.3rem;
-    font-weight: 100;
+    font-weight: 400;
     color: var(--color-darkblue);
     margin-bottom: 7px;
 }

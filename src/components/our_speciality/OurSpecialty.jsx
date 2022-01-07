@@ -92,6 +92,86 @@ const OurSpecialty = () => {
                         />
                         <p>Ophthalmology </p>
                     </div>
+                    <div className="specialty">
+                        <FaHeartbeat
+                            style={{
+                                width: "50px",
+                                height: "50px",
+                                color: "aqua",
+                            }}
+                        />
+                        <p>Ophthalmology </p>
+                    </div>
+                    <div className="specialty">
+                        <FaHeartbeat
+                            style={{
+                                width: "50px",
+                                height: "50px",
+                                color: "aqua",
+                            }}
+                        />
+                        <p>Ophthalmology </p>
+                    </div>
+                    <div className="specialty">
+                        <FaHeartbeat
+                            style={{
+                                width: "50px",
+                                height: "50px",
+                                color: "aqua",
+                            }}
+                        />
+                        <p>Ophthalmology </p>
+                    </div>
+                    <div className="specialty">
+                        <FaHeartbeat
+                            style={{
+                                width: "50px",
+                                height: "50px",
+                                color: "aqua",
+                            }}
+                        />
+                        <p>Ophthalmology </p>
+                    </div>
+                    <div className="specialty">
+                        <FaHeartbeat
+                            style={{
+                                width: "50px",
+                                height: "50px",
+                                color: "aqua",
+                            }}
+                        />
+                        <p>Ophthalmology </p>
+                    </div>
+                    <div className="specialty">
+                        <FaHeartbeat
+                            style={{
+                                width: "50px",
+                                height: "50px",
+                                color: "aqua",
+                            }}
+                        />
+                        <p>Ophthalmology </p>
+                    </div>
+                    <div className="specialty">
+                        <FaHeartbeat
+                            style={{
+                                width: "50px",
+                                height: "50px",
+                                color: "aqua",
+                            }}
+                        />
+                        <p>Ophthalmology </p>
+                    </div>
+                    <div className="specialty">
+                        <FaHeartbeat
+                            style={{
+                                width: "50px",
+                                height: "50px",
+                                color: "aqua",
+                            }}
+                        />
+                        <p>Ophthalmology </p>
+                    </div>{" "}
                 </div>
             </div>
         </div>

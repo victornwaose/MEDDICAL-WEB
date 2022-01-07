@@ -1,0 +1,47 @@
+.our_contact {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.our_contact_heading h4 {
+    text-align: center;
+    color: var(--color-blue);
+}
+
+.our_contact_heading h2 {
+    text-align: center;
+    color: var(--color-darkblue);
+}
+
+.our_contact_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.our_contact_card {
+    width: 30%;
+    height: 130px;
+    background-color: var(--color-lightblue);
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.our_contact_card:hover {
+    background-color: var(--color-darkblue);
+    color: var(--color-lightblue);
+}
+
+.our_contact_card_icon {
+    width: 50px;
+    height: 50px;
+    color: var(--color-darkblue);
+}
+
+.our_contact_card_icon:hover{
+    color: var(--color-lightblue);
+}
