@@ -46,3 +46,30 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 390px) {
+    .hero_cards {
+        bottom: 130px; 
+        left: 0; 
+    }
+    .hero_card {
+        width: 104px;
+        height: 50px;
+        margin-left: 4px;
+    }
+    .hero_card_1{
+        width: 104px;
+        height: 50px;
+        margin-left: 4px;
+    }
+    .hero_card_2 {
+        width: 104px;
+        height: 50px;
+        margin-left: 4px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+
+}
