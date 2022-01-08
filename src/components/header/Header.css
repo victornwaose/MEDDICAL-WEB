@@ -9,7 +9,6 @@
 .header_container{   
     width: 80%;
     margin: 0 auto;
-  
     height: 55px;
     display: flex;
     justify-content: space-between;
@@ -42,4 +41,48 @@ span{
 .header_detail_container_text h4{
     color: var(--color-lightblue);
     font-size: 0.7rem;
+}
+
+@media screen and (max-width: 390px) {
+    .header{
+        position: relative;
+    }
+
+    .header_container{ 
+        width: 90%;
+        height: 70px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .header_detail_container_icon{
+        width: 32px;
+        height: 32px;
+    }
+    
+    .header_detail_container_text h2{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .header{
+        position: relative;
+    }
+
+    .header_container{ 
+        width: 90%;
+        height: 70px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .header_detail_container_icon{
+        width: 32px;
+        height: 32px;
+    }
+    
+    .header_detail_container_text h2{
+        font-size: 0.9rem;
+    }
 }

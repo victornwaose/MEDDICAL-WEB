@@ -1,13 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { BiSearch } from "react-icons/bi";
+import { FaStream } from "react-icons/fa";
+import { BsXLg } from "react-icons/bs";
 
 import "./NavBar.css";
 
 const NavBar = () => {
+    const [close, setClose] = useState(false);
+
+    const MobileView = () => {
+        setClose(!close);
+    };
+
     return (
         <div className="navBar">
             <div className="navBar_container">
-                <div className="navBar_header">
+                <div className="nav-icon" onClick={MobileView}>
+                    {close ? <FaStream /> : <BsXLg />}
+                </div>
+
+                <div className={close ? "navBar_header" : "navMobile"}>
                     <ul>
                         <li>Home</li>
                         <li>About Us</li>
